@@ -1,10 +1,12 @@
 import React from 'react'
-
+import "../index.css";
 
 const Home = () => {
   return (
     <div>
-       <h1>Feline Fiendz</h1>
+       <div className='container'>
+       <img src='/images/store4.png' alt='store' />
+       </div>
     </div>
   )
 }
