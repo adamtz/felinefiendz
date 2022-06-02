@@ -1,0 +1,15 @@
+
+
+.img-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+img{
+    height: 100vh;
+}
+
+
