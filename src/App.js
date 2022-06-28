@@ -1,15 +1,15 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
-import Home from "./routes/Home";
-import Bodega from "./routes/Bodega"
 
+import Store from "./routes/Store";
+import Merch from "./routes/Merch"
 function App() {
   return (
     <div>
      <Routes>
-       <Route path="/" element={<Home />} />
-       <Route path="/Bodega" element={<Bodega />} />
+       <Route path="/" element={<Store /> } />
+       <Route path="/Merch" element={<Merch /> } />
      </Routes>
     </div>
   );
