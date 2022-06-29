@@ -4,7 +4,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 
 
-import Store from "./routes/Store";
+import Main from "./routes/Main"
 import Merch from "./routes/Merch"
 import Bodega from "./routes/Bodega"
 import Team from "./routes/Team"
@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
      <Routes>
-       <Route path="/" element={<Store /> } />
+       <Route path="/" element={<Main /> } />
        <Route path="/Merch" element={<Merch /> } />
        <Route path="/RoadMap" element={<RoadMap /> } />
        <Route path="/Team" element={<Team />} />
