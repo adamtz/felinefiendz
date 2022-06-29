@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: white;
+ 
 }
 
 body {
@@ -30,7 +30,4 @@ code {
     monospace;
 }
 
- video{
-  height: 100vh;
-  width: 102vw;
- }
+ 
