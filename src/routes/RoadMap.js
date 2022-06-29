@@ -4,7 +4,9 @@ import "../components/roadmap.css"
 
 function RoadMap() {
   return (
-    <div>RoadMap</div>
+    <p>
+      WORLD
+    </p>
   )
 }
 
