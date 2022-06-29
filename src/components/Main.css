@@ -1,9 +1,19 @@
 *{
     padding: 0;
     margin: 0;
+    overflow: hidden;
     
 }
-.btn{
-   opacity: 3%;
-}
+ .main{
+    width: 100%;
+    height: 100vh;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
 
+ VideoLooper{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }

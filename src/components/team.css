@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-align: left;
+    font-size: 20px;
+}
+
+.pgr1{
+    text-align: left;
+    font-size: 20px;
+    color: blue;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
