@@ -1,19 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
+    font-family: "Staatliches", cursive;
 }
 
-h2{
-    text-align: left;
-    font-size: 20px;
+h1{
+    color: black;
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
 }
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+
 
 .pgr1{
-    text-align: left;
-    font-size: 20px;
+    margin-top: 25px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+img{
+    height: 500px;
+    width: 500px;
+    display: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tname1{
+    margin-top: 60px;
+    margin-bottom: -50px;
+    
+}
+.team{
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 1100px;
+}
+
+a{
+    text-decoration: none;
+
+}
+a:hover{
     color: blue;
 }
-img{
-    height: 300px;
-    width: 300px;
+.priv{
+    margin-top: 40px;
+    text-align: center;
+    word-spacing: 20px;
+    font-size: 20px;
 }
