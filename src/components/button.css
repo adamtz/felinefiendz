@@ -1,6 +1,7 @@
 .btn1 {
-    padding: 50% 50%;
-    margin: 0;
-    position: absolute;
-    
+    cursor: pointer;
+}
+
+.btn1.hover {
+    color: blue;
 }
