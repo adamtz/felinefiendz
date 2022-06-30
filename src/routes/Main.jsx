@@ -15,11 +15,7 @@ const Main = () => {
         //<VideoLooper src={FiendzVideo} start={0.00} end={4.00} loop autoPlay /> 
         <div className='main'>
            <video src= {FiendzVideo} autoPlay loop muted />
-           <div className='content'>
-            <div class='container'>
-                <button className='btn1'>enter</button>
-            </div>
-           </div>
+           
            
         </div>
 
