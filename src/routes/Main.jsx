@@ -2,7 +2,7 @@ import React from 'react';
 import "../components/Main.css"
 //imported packages
 //import VideoLooper from "react-video-looper"
-import FiendzVideo from "../assets/Bodega Video2.mp4"
+import FiendzVideo from "../assets/Bodega Video2_Trim.mp4"
 
 //song import
 //import song from "../assets/static/bodegamusic.mp3"
