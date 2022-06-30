@@ -1,5 +1,6 @@
 import React from 'react';
 import "../components/Main.css"
+import "../components/button.css"
 //imported packages
 //import VideoLooper from "react-video-looper"
 import FiendzVideo from "../assets/Bodega Video2_Trim.mp4"
@@ -15,7 +16,9 @@ const Main = () => {
         <div className='main'>
            <video src= {FiendzVideo} autoPlay loop muted />
            <div className='content'>
-            <button>enter</button>
+            <div class='container'>
+                <button className='btn1'>enter</button>
+            </div>
            </div>
            
         </div>
