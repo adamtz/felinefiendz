@@ -4,7 +4,7 @@ import '../components/team.css'
 //images
 import fiend1 from "../assets/images/friend1.0.png"
 import fiend2 from "../assets/images/fiend2.0.png"
-import team1 from "../assets/images/team22.png"
+import team1 from "../assets/images/fiendnft.png"
 
 //pdf files
 import pdf1 from "../assets/PDF/privpolicy.pdf"
@@ -22,7 +22,15 @@ const Team = () => {
         </div>
         <div className='pgr1'>
           <p>
-            An exclusive brand for degens. Our community consists of all types of individuals ranging from artists to web developers, to parents, hypebeasts, we do not shy away from how diverse our community is. It only continues to grow as we prosper in the web3 space. We are a collection of 7777 Feline Fiendz located on the Ethereum blockchain. With limited edition clothing drops, exclusive airdrops, real life events, and much more to come.
+            An exclusive brand for degens. Our community consists of all types of individuals ranging from artists to web developers, to parents,</p> 
+          <p>
+          hypebeasts, we do not shy away from how diverse our community is.
+          </p>
+          <p>
+          It only continues to grow as we prosper in the web3 space. We are a collection of 7777 Feline Fiendz located on the Ethereum blockchain. 
+          </p>
+          <p>
+          With limited edition clothing drops, exclusive airdrops, real life events, and much more to come.
           </p>
         </div>
         <div className='title2'>
