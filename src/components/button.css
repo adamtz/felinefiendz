@@ -1,4 +1,4 @@
-.btn1 {
+/*.btn1 {
     padding: 50% 50%;
     margin: 0;
     position: absolute;
@@ -8,6 +8,52 @@
     outline: none;
    
 }
+*/
+
+
+button{
+    cursor: pointer;
+    opacity: 0%;
+    
+}
+.btn2{
+    z-index: 1;
+   position: absolute;
+   left: 3%;
+}
+.btn3{
+    z-index: 1;
+    position: absolute;
+    left: 30%;
+    
+}
+.btn4{
+    z-index: 1;
+    position: absolute;
+    left: 65%;
+    top:-7%;
+    
+}
+.btn5{
+    z-index: 1;
+    position: absolute;
+    left: 79%;
+    bottom: 62%;
+
+}
+.btn6{
+    z-index: 1;
+    position: absolute;
+    left: 93%;
+    bottom: 65%;
+}
+
+/*button:hover{
+background-color: aquamarine;
+color: blue;
+}
+
 .btn1:hover{
     background-color: aquamarine;
 }
+*/

@@ -4,18 +4,3 @@
     overflow: hidden;
  }
 
-button{
-    cursor: pointer;
-}
-.btn2{
-    z-index: 1;
-   position: absolute;
-   margin: 50px;
-   opacity: 0%;
-
-}
-
-button:hover{
-background-color: aquamarine;
-color: blue;
-}
