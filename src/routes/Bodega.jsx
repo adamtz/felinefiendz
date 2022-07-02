@@ -13,7 +13,7 @@ const Bodega = () => {
   return ( 
     <div className='chief'>
       <div className='btn2'>
-        <a href='https://discord.com/channels/934616456015007815/953830951811686470'>
+        <a href='https://discord.com/channels/934616456015007815/953830951811686470' target="_blank" rel='noreferrer'>
           <button>Click me</button>
           </a>
         </div>
@@ -28,7 +28,7 @@ const Bodega = () => {
           </Link>
         </div>
         <div className='btn5'>
-          <a href='https://opensea.io/collection/felinefiendznft'>
+          <a href='https://opensea.io/collection/felinefiendznft' target="_blank" rel='noreferrer'>
           <button>opensea</button>
           </a>
         </div>
