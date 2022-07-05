@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.modal{
+    font-size: 15px;
+    color: black;
+    background-color: transparent;
+    font-family: 'Staatliches', cursive;
+    position: fixed;
+    background-color: white;
+}
