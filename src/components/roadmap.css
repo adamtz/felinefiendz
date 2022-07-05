@@ -39,3 +39,11 @@ h3{
     color: red;
 }
 
+@media screen and (max-width:800px) {
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 40px;
+    }
+}

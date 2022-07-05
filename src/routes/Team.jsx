@@ -50,9 +50,9 @@ const Team = () => {
         <img className='team' src={team1} alt='theteam' />
       </div>
       <div className='priv'>
-        <a href={pdf1}>Privacy Policy</a>
+        <a href={pdf1} target="_blank" rel="noreferrer">Privacy Policy </a>
         <div>
-        <a classname= "tos" href= {pdf2}>TERMS OF SERVICE</a>
+        <a classname= "tos" href= {pdf2} target="_blank" rel="noreferrer">TERMS OF SERVICE</a>
         </div>
       </div>
       

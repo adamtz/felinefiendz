@@ -64,3 +64,39 @@ a:hover{
     word-spacing: 20px;
     font-size: 20px;
 }
+/*mobile styling*/
+
+@media screen and (max-width:500px){
+    .pgr1{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:800px) {
+    img{
+        height: 250px;
+        width: 250px;
+    }
+}
+@media screen and (max-width:300px) {
+    .team{
+        height: 100px;
+        width: 100px;
+    }
+}
+@media screen and (max-width:500px){
+    .team{
+        height: 300px;
+        width: 300px;
+    }
+}
+@media screen and (max-width:800px) {
+    .team{
+        height: 500px;
+        width: 500px;
+    }
+}
+@media screen and (max-width:800px) {
+    .pgr1{
+        font-size: 10px;
+    }
+}

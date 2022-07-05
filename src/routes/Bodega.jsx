@@ -49,7 +49,7 @@ const Bodega = () => {
         </div>
       </div>
       <div className='video2'>
-        <video src={FiendzVideo2} autoPlay muted > </video>
+        <video src={FiendzVideo2} autoPlay muted></video>
       </div>
     </div>
 

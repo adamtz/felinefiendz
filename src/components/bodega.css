@@ -3,5 +3,33 @@
     width: 100%;
     overflow: hidden;
  }
+.video{
+   height: 100vh;
+   width: 100%;
+   position: absolute;
+}
 
 
+@media screen and (max-width:400px){
+   .chief{
+      height: 100vh;
+      width: 100vw;
+      object-fit: cover;
+   }
+}
+
+@media screen and (max-width:600px){
+   .chief{
+      height: 100vh;
+      width: 100vw;
+      object-fit: cover;
+   }
+}
+@media screen and (max-width:800px){
+   .chief{
+      height: 100vh;
+      width: 100vw;
+      object-fit: cover;
+      position: relative;
+   }
+}
