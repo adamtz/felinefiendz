@@ -22,7 +22,6 @@ const Main = () => {
            <video src= {FiendzVideo} autoPlay loop muted /> 
            </Link>
            
-           
         </div>
 
     )

@@ -2,9 +2,8 @@
 
 .modal{
     font-size: 15px;
-    color: black;
-    background-color: transparent;
     font-family: 'Staatliches', cursive;
     position: fixed;
-    background-color: white;
+    background-color: whitesmoke;
+    
 }
