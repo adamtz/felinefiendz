@@ -41,9 +41,12 @@ button{
     position: absolute;
     left: 52% ;
     bottom: 30%;
-    background-color: transparent;
+    display: inline;
+    opacity: 0%;
 }
-
+.btn7:hover{
+    opacity: 100%;
+}
 
 /*mobile formatting */
 @media  screen and (max-width: 400px ) {
@@ -104,14 +107,14 @@ button{
         z-index: 1;
         position: absolute;
         left: 30%;
-        top: 30%;
+        top: 32%;
         opacity: 0%;
     }
     .btn4{
         z-index: 1;
         position: absolute;
         left: 63%;
-        top: 25%;
+        top: 29%;
         opacity: 0%;
         
     }

@@ -10,6 +10,7 @@ import "../components/button.css"
 
 //video background
 import FiendzVideo2 from "../assets/Bodega Video2_instore.mp4"
+import FiendzVideo3 from "../assets/final2.0.mp4"
 
 const Bodega = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -50,6 +51,10 @@ const Bodega = () => {
       </div>
       <div className='video2'>
         <video src={FiendzVideo2} autoPlay muted></video>
+        
+      </div>
+      <div className='video3'>
+        <video src={FiendzVideo3} autoPlay loop muted></video>
       </div>
     </div>
 
