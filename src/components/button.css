@@ -49,7 +49,7 @@ button{
 }
 
 /*mobile formatting */
-@media  screen and (max-width: 400px ) {
+@media  screen and (max-width: 575px ) {
     .btn2{
         z-index: 1;
        position: absolute;
@@ -96,6 +96,52 @@ button{
 }
 
 @media  screen and (max-width: 800px ) {
+    .btn2{
+        z-index: 1;
+       position: absolute;
+       left: 1%;
+       opacity: 0%;
+       top: 30%;
+    }
+    .btn3{
+        z-index: 1;
+        position: absolute;
+        left: 30%;
+        top: 32%;
+        opacity: 0%;
+    }
+    .btn4{
+        z-index: 1;
+        position: absolute;
+        left: 63%;
+        top: 29%;
+        opacity: 0%;
+        
+    }
+    .btn5{
+        z-index: 1;
+        position: absolute;
+        left: 78%;
+        bottom: 55%;
+        opacity: 0%;
+    }
+    .btn6{
+        z-index: 1;
+        position: absolute;
+        left: 93%;
+        top: 32%;
+        opacity: 0%;
+        
+        
+    }
+    .btn7{
+        z-index: 1;
+        position: absolute;
+        left: 52% ;
+        bottom: 42%;
+    }
+}
+@media  screen and (max-width: 900px ) {
     .btn2{
         z-index: 1;
        position: absolute;

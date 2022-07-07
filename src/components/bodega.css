@@ -16,14 +16,17 @@
    left: 15%;
    position: relative;
    overflow: hidden;
-   display: inside;
-   transition-delay: 250ms;
-   transition-property:  all;
-   transition-duration: 6s;
+   display: block;
+   transition-duration: 2s;
+   transform: scale(1.45);
+   animation-iteration-count: infinite;
+   
    opacity: 0%;
 }
 .video3:hover{
-   transform: scale(1.45);
+   transform: scale(1.43);
+   animation-iteration-count: infinite;
+   animation-play-state: paused;
    opacity: 100%;
    
 }
