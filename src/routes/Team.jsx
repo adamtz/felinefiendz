@@ -1,10 +1,9 @@
 import React from 'react'
 
 import '../components/team.css'
+
 //images
-import fiend1 from "../assets/images/friend1.0.png"
-import fiend2 from "../assets/images/fiend2.0.png"
-import team1 from "../assets/images/fiendnft.png"
+import team1 from "../assets/images/FTeam.png"
 
 //pdf files
 import pdf1 from "../assets/PDF/privpolicy.pdf"
@@ -22,25 +21,20 @@ const Team = () => {
         </div>
         <div className='pgr1'>
           <p>
-            An exclusive brand for degens. Our community consists of all types of individuals ranging from artists to web developers, to parents,</p> 
+          We are a collection of 7777 Feline Fiendz located on the Ethereum blockchain. An exclusive brand for degens by degens.
+          </p> 
           <p>
-          hypebeasts, we do not shy away from how diverse our community is.
+          You can find other like minded individuals in Our community ranging from artists to web developers, from parents to hypebeasts, and everyone in between.
           </p>
           <p>
-          It only continues to grow as we prosper in the web3 space. We are a collection of 7777 Feline Fiendz located on the Ethereum blockchain. 
+          We do not shy away from how diverse our community is and continue to grow as we prosper in the web3 space.  
           </p>
           <p>
-          With limited edition clothing drops, exclusive airdrops, real life events, and much more to come.
+          Our project offers utility with exclusive airdrops, real life events, limited edition clothing drops and much more to come.
           </p>
-        </div>
-        <div className='title2'>
-          <h2>Traits</h2>
-        </div>
-        <div className='img1'>
-          <img src={fiend1} alt='traits' />
-        </div>
-        <div className='img2'>
-        <img src={fiend2} alt="traits" />
+          <p>
+          See you in the Litter box!
+          </p>
         </div>
       </div>
       <div className='tname1'>

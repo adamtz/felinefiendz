@@ -1,9 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 .modal{
-    font-size: 15px;
-    font-family: 'Staatliches', cursive;
     position: fixed;
-    background-color: whitesmoke;
+    display: block;
+    transform: translate(-45%, -45%);
+}
+
+.modal-guts{
+    font-size: 23px;
+    text-shadow: 2px 2px 4px white;
+    padding: 20px 20px 20px 20px ;
+    width: 70%;
+    height: 65%;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    background-color: rgb(75, 217, 113);
+    box-shadow: inset 
+    0px 0px 0px 2px rgba(0,0,0,0.5), 
+    6px 10px 4px rgba(0,0,0,0.1),
+    0px 20px 8px rgba(0,0,0,0.1),
+    5px 30px 16px rgba(0,0,0,0.1);;
+    border-radius: 8px;
+    opacity: 100%;
+
+}
+
+
+/*mobile screens*/
+@media screen and (max-width:980px){
+    .modal{
+        position: fixed;
+        display: block;
+        transform: translate(-50%, -50%);
+    }
+    .modal-guts{
+        font-size: 17px;
+        text-shadow: 2px 2px 4px white;
+        padding: 20px 20px 20px 20px ;
+        width: 80%;
+        height: 10%;
+        text-align: center;
+        font-family: 'Staatliches', cursive;
+        background-color: rgb(112, 210, 255);
+        box-shadow: inset 
+        0px 0px 0px 2px rgba(0,0,0,0.5), 
+        6px 10px 4px rgba(0,0,0,0.1),
+        0px 20px 8px rgba(0,0,0,0.1),
+        5px 30px 16px rgba(0,0,0,0.1);;
+        border-radius: 8px;
+        opacity: 100%;
     
+    }
 }
