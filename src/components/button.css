@@ -41,20 +41,12 @@ button{
     position: fixed;
     left: 53% ;
     bottom: 36%;
-    display: inline;
     opacity: 0%;
 }
 .btn7:hover{
     opacity: 100%;
 }
-.btn8{
-    z-index: 1;
-    position: absolute;
-    display: block;
-    left: 18%;
-    bottom: 23%;
-    opacity: 0%;
-}
+
 /*mobile formatting */
 @media  screen and (max-width: 980px ) {
     .btn2{

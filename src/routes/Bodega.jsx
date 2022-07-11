@@ -44,17 +44,9 @@ const Bodega = () => {
       <div className='btn7'>
         <div className='modal'>
           <Modal open={isOpen} onClose={() => setIsOpen(false)}>
-            <div className='modal-guts'>
-              The native currency for the Bodega is called $NIP. The amount of $NIP you earn per day, corresponds to how many Fiendz you own. The more Fiendz you own, the more $NIP you earn per day. $NIP has to be collected daily in our discord. For more information go to our discord server.
-            </div>
           </Modal>
           <button onClick={() => setIsOpen(true)}>$NIP</button>
         </div>
-      </div>
-      <div className='btn8'>
-        <Link to="/traits">
-          <button>traits</button>
-        </Link>
       </div>
       <div className='video2'>
         <video src={FiendzVideo2} autoPlay muted></video>
